@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Letra";
+  src: url(../font/Sevillana-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(235, 227, 228);
+}
+
+header {
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 0;
+  border-radius: 11px;
+}
+
+.imagem {
+  height: 70px;
+  width: 70px;
+}
+
+.Container-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-texto {
+  margin-left: 30px;
+  font-family: "Letra";
+  color: white;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu li a {
+  font-size: 24px;
+  text-decoration: none;
+  color: pink;
+  text-transform: uppercase;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+
+.menu li a:hover {
+  background-color: rosybrown;
+}
+
+/* Fazendo o Main */
+
+.imagem-receitas {
+  margin-left: 260px;
+}
+
+.container-texto {
+  position: relative;
+  border-color: black;
+}
+
+.texto {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.texto h3 {
+  margin: 0;
+  margin-bottom: 450px;
+  margin-left: 450px;
+  font-family: cursive;
+  color: rgba(52, 5, 9, 0.635);
+}
+
+/* Crinado o Rodapé */
+
+.container-rodape {
+  display: flex;
+  flex-direction: column;
+  height: 20vb;
+  align-items: center;
+}
+
+footer {
+  flex: 1 1 0;
+  background-color: pink;
+  border-radius: 12px;
+}
+
+.imagem-rodapé {
+  height: 80px;
+  justify-content: space-around;
+}
+
+.home {
+  color: white;
+  display: inline-block;
+}
+
+/* Receita 01 */
+
+.texto-b {
+  height: 500px;
+  margin-left: 1000px;
+}
+.index {
+  color: white;
+}
+
+
+.ingredientes{
+  margin-left: 1000px;
+  margin-bottom: 50px;
+
+}
+
+.texto-c{
+  height: 500px;
+  margin-left: 1000px;
+}
